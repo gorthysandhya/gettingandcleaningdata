@@ -11,7 +11,7 @@
   (I get 79 columns)
 * finally using column bind, I am combining all 3 tables( X, activity, subject) ( 79+1+1 = 81 columns and 10299 rows)
 * Step3, is self explanatory and I am recoding the numeric values of activity to character values
-* Step 4 has been completed as a part of step2
+* Step 4 has been completed before the begining of step2 and after step1.
 * In step5 I am installing plyr packages, calling the library and using the pipeline opertor to create a tidy dataset by grouping on final data set 
   by activity by subject and calculating the average of each of the column in the dataset. This is done using summarise_each() function
 * The tidy dataset has  6( activity) * 30 ( subjects) = 180 rows and 81 columns
